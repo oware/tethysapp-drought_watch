@@ -86,7 +86,7 @@ def home(request):
                        },
             'serverType': 'mapserver',
         },
-        legend_title='CDI CHIRPS',
+        legend_title='Combined Drought Indicator',
     )
 
     map_layers.append(cdi_layer)
